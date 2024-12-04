@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="src/style.css"></link>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.7.8/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Faculty+Glyphic&family=Nosifer&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eileen's Recipe Maker</title>
+  </head>
+  <body>
+    <div class="container">
+    <header><h1>Eileen's Recipe Maker</h1></header>
+    <main>
+        <div class="form-container">
+        <form id="recipe-generator-form">
+            <input type="text" 
+            placeholder="Enter ingredients" 
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+            id="user-instructions"
+             />
+            <input type="submit" class="submit-button" />
+        </form>
+        <div class="hint">Use what's in your fridge (e.g. cheese, wine, beef, etc.) </div>
+        </div>
+        <div class="recipe hidden" id="recipe">
+            </div>
+    </main>
+   
+        <footer>This AI project was coded by 
+            <a href="https://github.com/swimfinn" target="_blank">
+                Eileen Finn</a> and is open-sourced on <a href="https://github.com/swimfinn/recipe-maker" 
+                target="_blank">Github</a> and his hosted on 
+                <a href="https://recipe-maker-by-eileen.netlify.app/" 
+                target="_blank">Netlify</a></footer> 
+                <script src="src/style.js"></script>
+            </div>
+  </body>
+</html>
